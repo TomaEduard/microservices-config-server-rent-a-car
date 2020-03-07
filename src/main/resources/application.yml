@@ -6,8 +6,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/TomaEduard/spring-cloud-config-store
+          uri: https://github.com/TomaEduard/microservices-config-store-rent-a-car
           search-paths:
-            - '*service'
+            - 'service-config/*service'
 #          username:
 #          passphrase:
